@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-var num=2
+var num=10
 var sideLen = windowWidth/num // variable for the side length of each square
 
   image(img,0,0);
