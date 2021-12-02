@@ -1,11 +1,11 @@
 let img;
 
 function preload(){
-img=loadImage('2x2grid_Kapp/square2.png')
+
 }
 
 function setup() {
-  createCanvas(windowWidth, windowWidth);
+  createCanvas(windowWidth, windowHeight);
   fill('red')
   strokeWeight(1);
 }
@@ -14,9 +14,7 @@ function draw() {
 var num=10
 var sideLen = windowWidth/num // variable for the side length of each square
 
-  image(img,0,0);
-
-  for (var y=0; y < windowWidth; y=y+sideLen)
+  for (var y=0; y < windowHeight; y=y+sideLen)
   for (var x=0; x < windowWidth; x=x+sideLen)
 
   quad(x,y,
