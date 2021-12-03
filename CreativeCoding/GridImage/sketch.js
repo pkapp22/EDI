@@ -1,9 +1,9 @@
-// let img;
-//
-// function preload(){
-// img = loadImage ('AIBG/Assets/Snowflake1.png')
-// }
-//
+let img;
+
+function preload(){
+img = loadImage ('AIBG/Assets/Snowflake1.png')
+}
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   fill('blue')
