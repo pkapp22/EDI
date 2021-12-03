@@ -6,7 +6,7 @@ img = loadImage ('AIBG/Assets/Snowflake1.png')
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  fill('red')
+  fill('blue')
   strokeWeight(1);
 }
 
