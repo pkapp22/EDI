@@ -1,7 +1,7 @@
 let img;
 
 function preload(){
-img = loadImage ('AIBG/Assets/Snowflake1.png')
+img = loadImage ('Assets/Snowflake1.png')
 }
 
 function setup() {
