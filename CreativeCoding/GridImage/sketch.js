@@ -20,7 +20,7 @@ function setup() { //runs once
 
 function draw() {
 
-    var num = 12; //variable for the number of squares in the array
+    var num = 8; //variable for the number of squares in the array
 
     var sideLen = windowWidth / num; //variable for the side length of each square
 
@@ -28,13 +28,13 @@ function draw() {
 
         for (var x = 0; x < windowWidth; x = x + sideLen) { // loop to create a row of squares in the x direction
 
-            var pics = [img, img1, img2, img3, img4, img5, img6];
+            var pics = [img, img2, img3, img4, img5, img6];
 
             quad(x, y,
                 x + sideLen, y,
                 x + sideLen, y + sideLen,
                 x, y + sideLen);
-            image(pics[int(random(0, 5))], x + (sideLen / 2 - 75), y + (sideLen / 2 - 75));
+            image(pics[int(random(0, 5))], x + (sideLen / 2 - 100), y + (sideLen / 2 - 100));
 
         }
 
