@@ -1,24 +1,109 @@
-/* export SVG
-DDF 2019
-need to have p5.svg.js in project and in index.html
-see -https://github.com/zenozeng/p5.js-svg
-this will save an SVG file in your download folder
-*/
-
 function setup() {
-  createCanvas(200, 200, SVG); // Create SVG Canvas
-  strokeWeight(1); // do 0.1 for laser
-  stroke(255, 0, 0); // red is good for laser
-  noFill(); // better not to have a fill for laser
+	createCanvas(600, 600,SVG);
 }
 
 function draw() {
-  for (x = 0; x < 10; x++) {
-    for (y = 0; y < 10; y++) {
-      rect(x * 10, y * 10, x, y);
-    }
-  }
-  save("mySVG.svg"); // give file name
-  print("saved svg");
-  noLoop(); // we just want to export once
+	background(255);
+
+	for (var x = 0; x < width; x += width / 15) {
+		for (var y = 0; y < height; y += height / 15) {
+			stroke(0);
+			strokeWeight(1);
+			line(x, 0, x, height);
+			line(0, y, width, y);
+fill(0);
+          rect(280, 0,40,200);
+           rect(0, 120, 120,40);
+           rect(480, 120, 120,40);
+           rect(120, 160, 40,40);
+          rect(440, 160, 40,40);
+           rect(240, 200, 120,40);
+          rect(160, 240, 40,80);
+         rect(400, 240, 40,80);
+        rect(0, 320, 40,40);
+        rect(360, 320, 40,40);
+         rect(200, 320, 40,40);
+          rect(560, 320, 40,40);
+          rect(120, 360, 40,120);
+          rect(440, 360, 40,120);
+           rect(360, 480, 40,120);
+           rect(200, 480, 40,120);
+
+          textSize(9);
+text('1', 3, 9);
+text('2', 43, 9);
+ text('3', 83, 9);
+        text('4', 123, 9);
+        text('5', 163, 9);
+        text('6', 203, 9);
+        text('7', 243, 9);
+        text('8', 323, 9);
+        text('9', 363, 9);
+        text('10', 403, 9);
+        text('11', 443, 9);
+        text('12', 483, 9);
+        text('13', 523, 9);
+        text('14', 563, 9);
+        text('15', 0, 49);
+        text('16', 320, 49);
+        text('17', 0, 89);
+        text('21', 0, 169);
+        text('29', 0, 209);
+        text('33', 0, 249);
+        text('39', 0, 289);
+        text('46', 0, 369);
+        text('52', 0, 409);
+        text('55', 0, 449);
+        text('56', 0, 489);
+        text('63', 0, 529);
+        text('66', 0, 569);
+        text('22', 43, 169);
+        text('42', 43, 329);
+        text('23', 83, 169);
+        text('19', 123, 129);
+        text('30', 123, 209);
+        text('59', 123, 489);
+        text('24', 163, 169);
+        text('43', 163, 329);
+        text('47', 163, 369);
+        text('53', 163, 409);
+        text('56', 163, 449);
+        text('34', 203, 249);
+        text('40', 203, 289);
+        text('48', 203, 369);
+        text('35', 243, 249);
+        text('60', 243, 489);
+        text('64', 243,529);
+        text('67', 243, 569);
+        text('36', 283, 249);
+        text('37', 323, 249);
+        text('18', 320, 89);
+        text('20', 320, 129);
+        text('25', 320, 169);
+        text('37', 320, 229);
+        text('31', 363, 209);
+        text('49', 363, 369);
+        text('10', 403, 9);
+        text('45', 403, 329);
+        text('61', 403, 489);
+        text('65', 403, 529);
+        text('68', 403, 569);
+        text('32', 443, 209);
+        text('38', 443, 249);
+        text('41', 443, 289);
+        text('62', 443, 489);
+        text('26', 483, 169);
+        text('27', 523, 169);
+        text('28', 563, 169);
+        text('51', 563, 369);
+
+
+
+
+        }
+	}
+save("mySVG.svg");
+print("saved SVG");
+noloop();
+
 }
