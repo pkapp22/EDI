@@ -34,7 +34,7 @@ function draw() {
                 x + sideLen, y,
                 x + sideLen, y + sideLen,
                 x, y + sideLen);
-            image(pics[int(random(0, 5))], x + (sideLen / 2 - 100), y + (sideLen / 2 - 100));
+            // image(pics[int(random(0, 5))], x + (sideLen / 2 - 100), y + (sideLen / 2 - 100));
 
         }
 
