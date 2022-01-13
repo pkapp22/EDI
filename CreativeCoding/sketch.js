@@ -2,12 +2,12 @@ var randDrawing;
 
 function preload() { // all photos 150 pixel width
 
-    img = loadImage('Assets/Snowflake1.png');
-    img2 = loadImage('Assets/Snowflake2.png');
-    img3 = loadImage('Assets/Snowflake3.png');
-    img4 = loadImage('Assets/Snowflake4.png');
-    img5 = loadImage('Assets/Snowflake5.png');
-    img6 = loadImage('Assets/Snowflake6.png');
+    // img = loadImage('Assets/Snowflake1.png');
+    // img2 = loadImage('Assets/Snowflake2.png');
+    // img3 = loadImage('Assets/Snowflake3.png');
+    // img4 = loadImage('Assets/Snowflake4.png');
+    // img5 = loadImage('Assets/Snowflake5.png');
+    // img6 = loadImage('Assets/Snowflake6.png');
 
 }
 
@@ -34,7 +34,7 @@ function draw() {
                 x + sideLen, y,
                 x + sideLen, y + sideLen,
                 x, y + sideLen);
-            image(pics[int(random(0, 5))], x + (sideLen / 2 - 100), y + (sideLen / 2 - 100));
+            // image(pics[int(random(0, 5))], x + (sideLen / 2 - 100), y + (sideLen / 2 - 100));
 
         }
 
