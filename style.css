@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family:'Roboto', sans-serif;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(135, 200, 255);
 }
 
 canvas {
@@ -27,7 +27,7 @@ p{
     position: absolute;
     font-size: 0.875em;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-75%);
     text-align:center;
     top: 5%;
 }
